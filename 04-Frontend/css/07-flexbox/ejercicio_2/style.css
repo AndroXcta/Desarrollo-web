@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+    background-image: url(./assets/images/pattern-background-desktop.svg) ;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    text-align: center;
+}
+
+.container-main {
+    padding: 5%;
+}
+
+img {
+    width: 100%;
+}
+
+.container-middle {
+    background-color: rgb(230, 238, 244);
+}
+
+.container-middle img {
+    width: 8%;
+}
+
+h2 {
+    margin: 5%;
+}

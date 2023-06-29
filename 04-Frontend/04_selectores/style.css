@@ -1,0 +1,49 @@
+* {
+  background-image: -moz-linear-gradient(to bottom, #800080, #ffff);
+  color: black;
+  size: 50px;
+}
+h1 {
+  color: blue;
+  size: 32.5px;
+}
+
+h1:hover {
+  color: red;
+  size: 40px;
+  transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 1.5s;
+}
+
+img {
+  width: 500px;
+  background-color: black;
+  animation: mover 10s linear infinite;
+}
+button {
+  animation: mover 10s linear infinite;
+}
+
+@keyframes mover {
+  50% {
+    transform: translate(900px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.imagen_chida {
+  background-color: black;
+}
+
+.Parrafo {
+  color: rgb(255, 0, 0);
+  size: 30px;
+}
+.Parrafo:hover {
+  color: rgb(146, 26, 26);
+  transition: all linear 0.5s;
+}
+
+.parrafo_2 p {
+  color: blue;
+}

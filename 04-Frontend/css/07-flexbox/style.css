@@ -1,0 +1,18 @@
+.hijos {
+  background-color: rgb(255, 0, 0);
+  border: 2px solid blue ;
+  width: 100px;
+  height: 80px;
+}
+
+.padre{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
