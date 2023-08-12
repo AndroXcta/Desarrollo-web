@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.personaje {
+  background-color: black;
+  width: 45%;
+  color: white;
+  border-radius: 15px;
+  margin: 8px;
+  display: flex;
+  justify-content: center;
+}
