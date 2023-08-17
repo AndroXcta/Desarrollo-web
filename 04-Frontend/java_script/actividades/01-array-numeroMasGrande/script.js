@@ -25,45 +25,31 @@ console.log('El número mayor es:', ayuda);
 
 */
 
-
 function numeroMayor(array) {
-    if (!Array.isArray(array)) {
-        console.log("Solo se admiten arrays");
-        return; 
-      }
-      if (array.some(isNaN)) {
-        console.log("Solo se admiten números");
-        return; 
-      }
-    
-    let ayuda = array[0];
-    for (let i = 0; i < array.length; i++) {
-        if (array[i] > ayuda) {
-          ayuda = array[i];
-        }
-      }
-    console.log('El número mayor es:', ayuda);
-     
+  if (!Array.isArray(array)) {
+    console.log("Solo se admiten numeros");
+    return;
+  }
+  if (array.some(isNaN)) {
+    console.log("Solo se admiten números");
+    return;
+  }
+
+  let ayuda = array[0];
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] > ayuda) {
+      ayuda = array[i];
+    }
+  }
+  console.log("El número mayor es:", ayuda);
 }
 
-
-
-function numeroMenor (array) {
-    let ayuda = array[0];
-    for (let i = 0; i < array.length; i++) {
-        if (array[i] < ayuda) {
-          ayuda = array[i];
-        }
-      }
-    console.log('El número menor es:', ayuda);
-     
+function numeroMenor(array) {
+  let ayuda = array[0];
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] < ayuda) {
+      ayuda = array[i];
+    }
+  }
+  console.log("El número menor es:", ayuda);
 }
-
-
-
-
-
-
-
-
-
